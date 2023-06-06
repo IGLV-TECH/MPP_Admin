@@ -1,12 +1,11 @@
 import type { Address } from "./adress";
 
-export interface Client {
+
+export interface Employee {
     lastName: string,
     firstName: string,
     phoneNumber: string,
     email: string,
-    balance: number,
     address: Address,
     id: number,
 }
-

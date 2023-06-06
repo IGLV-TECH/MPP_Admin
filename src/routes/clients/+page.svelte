@@ -1,7 +1,7 @@
 <script context="module">
-	import Table from '$lib/components/table.svelte';
+	import ClientsTable from '$lib/components/clients_table.svelte';
 
-	export const prerender = true;
+	export let page = 1;
 </script>
 
 <svelte:head>
@@ -9,5 +9,5 @@
 </svelte:head>
 
 <div class="mt-2">
-	<Table start={0} count={5} />
+	<ClientsTable bind:page pageSize={5} />
 </div>

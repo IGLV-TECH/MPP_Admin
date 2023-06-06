@@ -1,5 +1,5 @@
 <script lang="ts">
-	export let page: string = 'Clients';
+	export let page: string = 'Admin panel';
 	import Themeswitcher from './themeswitcher.svelte';
 </script>
 
